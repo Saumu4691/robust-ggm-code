@@ -3,7 +3,14 @@
 
 ## Overview
 
-This repository contains code for simulation studies and real data analysis comparing the regularized horseshoe prior and Laplace prior in Bayesian Gaussian graphical models.
+This repository contains the main implementation of a robust Bayesian framework for precision-matrix estimation in Gaussian graphical models. The method combines γ-divergence with a regularized horseshoe prior to improve robustness to extreme observations while encouraging sparse dependence structures.
+The repository includes code for:
+- simulation studies under different data-generating settings;
+- comparison with Laplace-prior approaches;
+- evaluation of estimation accuracy and sparsity recovery;
+- uncertainty quantification and computational assessment; and
+- real-data analysis.
+The implementation is developed in Python/PyTorch and supports reproducible evaluation of the proposed methodology.
 
 
 ## Requirements
